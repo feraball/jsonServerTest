@@ -3,7 +3,7 @@
     [
         {
             "id"             : "1",
-            "type"           : "detalle",
+            "type"           : "detail",
             "title"          : "Saldo ilimitado por $25 dólares mensuales",
             "image"          : 
             {
@@ -18,7 +18,7 @@
         },
         {
             "id"             : "2",
-            "type"           : "redirect",
+            "type"           : "redirection",
             "title"          : "400 Megas + Whatsapp por 5 días",
             "image"          : {
                 "image"          : "https://tse4.mm.bing.net/th?id=OIP.8bGznKbr6mGqI1aJ4HwyEQHaEY",
@@ -28,14 +28,35 @@
             "shortText"      : "A tan solo $3,00 (precio final)",
             "textColor"      : "#ffffff",
             "buttonText"     : "Lo quiero",
-            "buttonColor"    : "#d52b1e"
+            "buttonColor"    : "#d52b1e",
+            "redirection"    : {
+                "transaction_type"    : 1,
+                "transaction_section" : "",
+                "transaction_id"      : ""
+            }
+        },
+        {
+            "id"             : "3",
+            "type"           : "detail",
+            "title"          : "300 Megas + Whatsapp por 10 días",
+            "image"          : {
+                "image"          : "https://tse4.mm.bing.net/th?id=OIP.8bGznKbr6mGqI1aJ4HwyEQHaEY",
+                "image_tablet"   : "https://3c1703fe8d.site.internapcdn.net/newman/gfx/news/hires/2018/theimpactoff.jpg",
+                "fill_width"    : true
+            },
+            "shortText"      : "A tan solo $1,50 (precio final)",
+            "textColor"      : "#ffffff",
+            "buttonText"     : "Lo quiero",
+            "buttonColor"    : "#d52b1e",
         }
     ],
     "details": 
     [
         {
             "id"             : "1",
-            "title"          : "Saldo ilimitado por $25 dólares mensuales",
+            "activityTitle"  : "",
+            "detailTitle"    : "Saldo ilimitado por $25 dólares mensuales",
+            "detailType"     : "redirection",
             "image"          : {
                 "image"          : "https://3c1703fe8d.site.internapcdn.net/newman/gfx/news/hires/2014/newresearchf.jpg",
                 "image_tablet"   : "http://e-burgas.com/uploads/2017/09/t.jpg",
@@ -47,42 +68,146 @@
             "longText"       : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
             "shareTitleText" : "Comparte tu beneficio",
             "shareText"      : "Saldo ilimitado por $25 dólares mensuales",
-            "benefitId"      : "1"
-        }
-    ],
-    "redirections":
-    [
-        {
-            "id" : "1",
-            "tab": 
-            {
-                "position"  : 14,
-                "id"        : 12,
-                "name"      : "Recargas",
-                "type"      : "CA"
-            },
-            "transaction": 
-            {
-                "code"                : "",
-                "name"                : "Recargas",
-                "type"                : "",
-                "cost"                : "",
-                "is_change_plan"      : false,
-                "open_in"             : "movil",
+            "benefitId"      : "1",
+            "redirection"    : {
                 "transaction_type"    : 1,
                 "transaction_section" : "",
-                "transaction_url"     : "",
-                "transaction_id"      : "",
-                "canActivate"         : false,
-                "mensaje"             : ""
+                "transaction_id"      : ""
+            }
+        },
+        {
+            "id"             : "2",
+            "activityTitle"  : "Pago",
+            "detailTitle"    : "300 Megas + Whatsapp por 10 días",
+            "detailType"     : "transaction",
+            "image"          : {
+                "image"          : "https://3c1703fe8d.site.internapcdn.net/newman/gfx/news/hires/2014/newresearchf.jpg",
+                "image_tablet"   : "http://e-burgas.com/uploads/2017/09/t.jpg",
+                "fill_width"     : true
             },
-            "image": 
-            {
-                "image"         : "https:\/\/miclaro.com.ec\/imagenes_app\/prehome\/banner_400_telefono.png",
-                "image_tablet"  : "https:\/\/miclaro.com.ec\/imagenes_app\/prehome\/banner_400_tablet.png",
-                "fill_width"    : true
-            },
-            "benefitId"      : "2"
+            "isSharable"     : true,
+            "buttonText"     : "Lo quiero",
+            "buttonColor"    : "#d52b1e",
+            "longText"       : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "shareTitleText" : "Comparte tu beneficio",
+            "shareText"      : "Saldo ilimitado por $25 dólares mensuales",
+            "benefitId"      : "3",
+            "transaction": {
+                "code": "AUT-7216",
+                "name": "400 megas $3 por 5 dias",
+                "type": "",
+                "cost": "3.00",
+                "is_change_plan": false,
+                "open_in": "movil",
+                "transaction_type": 12,
+                "transaction_section": "datos",
+                "transaction_id": "",
+                "canActivate": true,
+                "mensaje": "",
+                "feature": {
+                  "features": [
+                    {
+                      "idfeature": "AUT-7216",
+                      "codalterno": "",
+                      "descripcion": "400 megas $3 por 5 dias prehome",
+                      "fechainicio": "",
+                      "fechafin": "",
+                      "estado": "I",
+                      "tipo": "A",
+                      "costo": "3.00",
+                      "impuesto": "",
+                      "valorimpuesto": "0.32",
+                      "total": "3.00",
+                      "showAction": true,
+                      "position": 7,
+                      "has_detail": true,
+                      "view_detail": true,
+                      "pago_con_tc": true,
+                      "es_titulo": false,
+                      "layout_type": 1,
+                      "pvp_sin_iva": "2.68",
+                      "kushki_pvp_sin_iva": 2.68,
+                      "kushki_impuesto": 0.32,
+                      "kushki_costo": 3,
+                      "kushki_ice": 0,
+                      "kushki_idfeature": "AUT-7220",
+                      "kushki_idpromo": "1836",
+                      "txtBtn": "ACTIVAR",
+                      "allowChangeState": true,
+                      "bloqueo_factura_saldo": false,
+                      "bloqueo_factura_saldo_txt": "",
+                      "txt_confirmacion_tarjeta": "Est\u00e1s a un paso de activar un paquete de 400 megas $3 por 5 dias, precio final de $3.00, con cargo a tu tarjeta de cr\u00e9dito-d\u00e9bito.   \u00a1Da click en continuar!",
+                      "txt_confirmacion_factura_saldo": "Est\u00e1s a un paso de activar un paquete de 400 megas $3 por 5 dias, precio final de $3.00, con cargo a tu factura.   \u00a1Da click en continuar!",
+                      "txt_confirmacion_tarjeta_bold1": "400 megas $3 por 5 dias",
+                      "txt_confirmacion_tarjeta_bold2": "cargo a tu tarjeta de cr\u00e9dito-d\u00e9bito",
+                      "txt_confirmacion_factura_saldo_bold1": "400 megas $3 por 5 dias",
+                      "txt_confirmacion_factura_saldo_bold2": "cargo a tu factura",
+                      "show_factura_saldo": true,
+                      "titulo_pop_up": "Elige tu forma de pago",
+                      "detalle": [
+                        {
+                          "tipo": "Megas",
+                          "es_principal": true,
+                          "descripcion": "400 Megas",
+                          "posicion": "1",
+                          "urlicon": "https:\/\/miclaro.com.ec\/imagenes_app\/features\/icon_megas.png",
+                          "use_all_width": false
+                        },
+                        {
+                          "tipo": "Tiempo",
+                          "es_principal": true,
+                          "descripcion": "5 d\u00edas",
+                          "posicion": "2",
+                          "urlicon": "https:\/\/miclaro.com.ec\/imagenes_app\/features\/icon_calendar.png",
+                          "use_all_width": false
+                        },
+                        {
+                          "tipo": "Whatsapp",
+                          "es_principal": false,
+                          "descripcion": "Gratis 5 d\u00edas",
+                          "posicion": "3",
+                          "urlicon": "https:\/\/miclaro.com.ec\/imagenes_app\/features\/icon_ws.png",
+                          "use_all_width": false
+                        }
+                      ],
+                      "descripcion_detalle": "",
+                      "titulo_detalle": ""
+                    }
+                  ],
+                  "txt_adicionales": "",
+                  "forma_pago": {
+                    "credito_debito": {
+                      "tc_opc_text": "Tarjeta de cr\u00e9dito o d\u00e9bito",
+                      "tc_text": "Tarjetas cr\u00e9dito aceptadas",
+                      "tc_text_note": "\u0095 De todos los bancos",
+                      "tc_imagenes": [
+                        "https:\/\/miclaro.com.ec\/imagenes_app\/features\/tc_visa.png",
+                        "https:\/\/miclaro.com.ec\/imagenes_app\/features\/tc_mastercard.png"
+                      ],
+                      "iconos": {
+                        "normal": "https:\/\/miclaro.com.ec\/imagenes_app\/features\/tarjeta_habilitado.png",
+                        "seleccionado": "https:\/\/miclaro.com.ec\/imagenes_app\/features\/tarjeta_seleccionado.png",
+                        "bloqueado": ""
+                      },
+                      "debito_text": "Tarjetas d\u00e9bito aceptadas",
+                      "debito_imagenes": [
+                        "https:\/\/miclaro.com.ec\/imagenes_app\/features\/banco_produbanco.png",
+                        "https:\/\/miclaro.com.ec\/imagenes_app\/features\/banco_pichincha_new.png",
+                        "https:\/\/miclaro.com.ec\/imagenes_app\/features\/banco_pacifico.png",
+                        "https:\/\/miclaro.com.ec\/imagenes_app\/features\/banco_guayaquil.png"
+                      ]
+                    },
+                    "factura_saldo": {
+                      "fact_opc_text": "Cargo a factura",
+                      "iconos": {
+                        "normal": "https:\/\/miclaro.com.ec\/imagenes_app\/features\/factura_habilitado.png",
+                        "seleccionado": "https:\/\/miclaro.com.ec\/imagenes_app\/features\/factura_seleccionado.png",
+                        "bloqueado": "https:\/\/miclaro.com.ec\/imagenes_app\/features\/factura_deshabilitado.png"
+                      }
+                    }
+                  }
+                }
+            }
         }
     ]
 }
