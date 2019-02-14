@@ -81,12 +81,12 @@
             "longText"       : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
             "isSharable"     : true,
             "shareText"      : "Comparte con tus amigos",
-            "benefitId"      : "1",
             "redirection"    : {
                 "transaction_type"    : 1,
                 "transaction_section" : "",
                 "transaction_id"      : ""
-            }
+            },
+            "benefitId"      : "1"
         },
         {
             "id"             : "2",
@@ -103,8 +103,8 @@
             "longText"       : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
             "isSharable"     : false,
             "shareText"      : "",
-            "benefitId"      : "3",
-            "transaction"    : {}
+            "transaction"    : {},
+            "benefitId"      : "3"
         },
         {
             "id"             : "3",
@@ -121,8 +121,8 @@
             "longText"       : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
             "isSharable"     : false,
             "shareText"      : "",
-            "benefitId"      : "4",
-            "planData"       : []
+            "planData"       : [],
+            "benefitId"      : "4"
         }
     ]
 }
