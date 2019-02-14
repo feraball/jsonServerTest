@@ -1,0 +1,29 @@
+{
+    "benefits":
+    [
+        {
+            "id"             : "1",
+            "type"           : "detalle",
+            "title"          : "Saldo ilimitado por $25 dólares mensuales",
+            "imagePhoneUrl"  : "https://3c1703fe8d.site.internapcdn.net/newman/gfx/news/hires/2014/newresearchf.jpg",
+            "imageTabletUrl" : "http://e-burgas.com/uploads/2017/09/t.jpg",
+            "shortText"      : "Incluye 50 minutos para llamadas",
+            "buttonText"     : "Lo quiero",
+            "isSharable"     : true,
+            "longText"       : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "shareText"      : "Comparte - Saldo ilimitado por $25 dólares mensuales"
+        },
+        {
+            "id"             : "2",
+            "type"           : "megas",
+            "title"          : "400 Megas + Whatsapp por 5 días",
+            "imagePhoneUrl"  : "https://tse4.mm.bing.net/th?id=OIP.8bGznKbr6mGqI1aJ4HwyEQHaEY",
+            "imageTabletUrl" : "https://3c1703fe8d.site.internapcdn.net/newman/gfx/news/hires/2018/theimpactoff.jpg",
+            "shortText"      : "A tan solo $3,00 (precio final)",
+            "buttonText"     : "Lo quiero",
+            "isSharable"     : false,
+            "longText"       : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "shareText"      : "Comparte - 400 Megas + Whatsapp por 5 días"
+        }
+    ]
+}
