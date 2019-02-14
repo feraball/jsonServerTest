@@ -10,18 +10,7 @@
             "shortText"      : "Incluye 50 minutos para llamadas",
             "textColor"      : "#ffffff",
             "buttonText"     : "Lo quiero",
-            "buttonColor"    : "#d52b1e",
-            "detail"         : {
-                "title"          : "Saldo ilimitado por $25 dólares mensuales",
-                "imagePhoneUrl"  : "https://3c1703fe8d.site.internapcdn.net/newman/gfx/news/hires/2014/newresearchf.jpg",
-                "imageTabletUrl" : "http://e-burgas.com/uploads/2017/09/t.jpg",
-                "isSharable"     : true,
-                "buttonText"     : "Lo quiero",
-                "buttonColor"    : "#d52b1e",
-                "longText"       : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-                "shareTitleText" : "Comparte tu beneficio",
-                "shareText"      : "Saldo ilimitado por $25 dólares mensuales"
-            }
+            "buttonColor"    : "#d52b1e"
         },
         {
             "id"             : "2",
@@ -34,6 +23,22 @@
             "isSharable"     : false,
             "longText"       : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
             "shareText"      : "Comparte - 400 Megas + Whatsapp por 5 días"
+        }
+    ],
+    "details": 
+    [
+        {
+            "id"             : "1",
+            "title"          : "Saldo ilimitado por $25 dólares mensuales",
+            "imagePhoneUrl"  : "https://3c1703fe8d.site.internapcdn.net/newman/gfx/news/hires/2014/newresearchf.jpg",
+            "imageTabletUrl" : "http://e-burgas.com/uploads/2017/09/t.jpg",
+            "isSharable"     : true,
+            "buttonText"     : "Lo quiero",
+            "buttonColor"    : "#d52b1e",
+            "longText"       : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "shareTitleText" : "Comparte tu beneficio",
+            "shareText"      : "Saldo ilimitado por $25 dólares mensuales",
+            "benefitId"      : "1"
         }
     ]
 }
