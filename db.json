@@ -62,12 +62,11 @@
                 "image_tablet"   : "http://e-burgas.com/uploads/2017/09/t.jpg",
                 "fill_width"     : true
             },
-            "isSharable"     : true,
             "buttonText"     : "Lo quiero",
             "buttonColor"    : "#d52b1e",
             "longText"       : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-            "shareTitleText" : "Comparte tu beneficio",
-            "shareText"      : "Saldo ilimitado por $25 dólares mensuales",
+            "isSharable"     : true,
+            "shareText"      : "Comparte con tus amigos",
             "benefitId"      : "1",
             "redirection"    : {
                 "transaction_type"    : 1,
@@ -85,10 +84,10 @@
                 "image_tablet"   : "http://e-burgas.com/uploads/2017/09/t.jpg",
                 "fill_width"     : true
             },
-            "isSharable"     : false,
             "buttonText"     : "Lo quiero",
             "buttonColor"    : "#d52b1e",
             "longText"       : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+            "isSharable"     : false,
             "shareText"      : "",
             "benefitId"      : "3",
             "transaction"    : {}
