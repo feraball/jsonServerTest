@@ -47,7 +47,7 @@
             "shortText"      : "A tan solo $1,50 (precio final)",
             "textColor"      : "#ffffff",
             "buttonText"     : "Lo quiero",
-            "buttonColor"    : "#d52b1e",
+            "buttonColor"    : "#d52b1e"
         }
     ],
     "details": 
@@ -92,8 +92,7 @@
             "shareTitleText" : "Comparte tu beneficio",
             "shareText"      : "Saldo ilimitado por $25 dólares mensuales",
             "benefitId"      : "3",
-            "transaction": {
-            }
+            "transaction"    : {}
         }
     ]
 }
