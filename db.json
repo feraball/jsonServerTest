@@ -48,6 +48,20 @@
             "textColor"      : "#ffffff",
             "buttonText"     : "Lo quiero",
             "buttonColor"    : "#d52b1e"
+        },
+        {
+            "id"             : "4",
+            "type"           : "detail",
+            "title"          : "Nuevo Plan Pepa",
+            "image"          : {
+                "image"          : "https://tse4.mm.bing.net/th?id=OIP.8bGznKbr6mGqI1aJ4HwyEQHaEY",
+                "image_tablet"   : "https://3c1703fe8d.site.internapcdn.net/newman/gfx/news/hires/2018/theimpactoff.jpg",
+                "fill_width"    : true
+            },
+            "shortText"      : "A tan solo $16,00 (precio final)",
+            "textColor"      : "#ffffff",
+            "buttonText"     : "Lo quiero",
+            "buttonColor"    : "#d52b1e"
         }
     ],
     "details": 
@@ -91,6 +105,24 @@
             "shareText"      : "",
             "benefitId"      : "3",
             "transaction"    : {}
+        },
+        {
+            "id"             : "3",
+            "activityTitle"  : "Nuevo Plan Pepa",
+            "detailTitle"    : "Nuevo Plan Pepa",
+            "detailType"     : "cambio_plan",
+            "image"          : {
+                "image"          : "https://3c1703fe8d.site.internapcdn.net/newman/gfx/news/hires/2014/newresearchf.jpg",
+                "image_tablet"   : "http://e-burgas.com/uploads/2017/09/t.jpg",
+                "fill_width"     : true
+            },
+            "buttonText"     : "Lo quiero",
+            "buttonColor"    : "#d52b1e",
+            "longText"       : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+            "isSharable"     : false,
+            "shareText"      : "",
+            "benefitId"      : "4",
+            "planData"       : []
         }
     ]
 }
